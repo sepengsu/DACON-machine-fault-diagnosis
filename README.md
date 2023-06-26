@@ -49,24 +49,28 @@ ${PROJECT}
 ### 2-3. Autoencoder
 ```
 2006년 이후 널리 사용한 기법으로, 먼저 데이터셋이 인코더와 디코더를 거치면서 변하는 정도로 이상치를 탐지하는 일고리즘이다.
+인코더에 데이터를 넣으면 디코더에 output이 나오는데 이 둘을 비교하여 다른 정도가 threshold보다 크면 이상치로 탐지한다.
 ```
 * 참고 *
 ```
 Local Outlier Factor(LOF)
 2000년에 발표된 전통적인 이상탐지 기법이다.
 전체 데이터 분포에서 밀집도를 고려하여 이상탐지한다.
-즉, 이웃 그룹의 밀도를 고려하여 객체의 이상치를 판별한다.  
+즉, 이웃 그룹의 밀도를 고려하여 객체의 이상치를 판별한다.
+이 데이터에서는 모든 데이터가 정상데이터이므로 하기에는 너무 부적절하다고 판단하였다.  
 ```
 
 
 ### 3. 결과
 
-### 4. 문제점
+### 4. 문제점 
 
 
-
+### 5. 개선사항
+1. 
 ### 6. 참고문헌
 ```
 (1): https://brightwon.tistory.com/11
+(3): https://leedakyeong.tistory.com/entry/Anomaly-Detection-by-Auto-Encoder
 https://eatchu.tistory.com/entry/%EC%9D%B4%EC%83%81%EC%B9%98%ED%83%90%EC%A7%80-%EA%B8%B0%EB%B0%98%EC%9D%98-Local-Outlier-FactorLOF-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0
 ```
