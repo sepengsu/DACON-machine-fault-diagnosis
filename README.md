@@ -11,20 +11,25 @@
 ```
 ${PROJECT}
 ├── data: 대회에서 제공해준 기본 데이터 
-│      ├── sample_submission.csv -> 삭제 완료
-│      ├── test.csv -> 삭제 완료
-│      └── train.csv -> 삭제 완료
+│     ├── sample_submission.csv -> 삭제 완료
+│     ├── test.csv -> 삭제 완료
+│     └── train.csv -> 삭제 완료
 ├── model
-│        ├── Auto
-│        │     ├── model_0_1~5.h5 : 모드 0에서의 k-fold autoencoder
-│        │     ├── model_2_1~5.h5 : 모드 2에서의 k-fold autoencoder
-│        │     └── threshold.csv  : 각 모델별의 thresold를 저장해놓은 것
-│        ├── IsolationForest_0.pkl: 모드 0에서의 IsolationForest 모델
-│        ├── IsolationForest_2.pkl: 모드 2에서의 IsolationForest 모델
-│        ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
-│        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델
-├── 
-             
+│     ├── Auto
+│     │     ├── model_0_1~5.h5 : 모드 0에서의 k-fold autoencoder
+│     │     ├── model_2_1~5.h5 : 모드 2에서의 k-fold autoencoder
+│     │     └── threshold.csv  : 각 모델별의 thresold를 저장해놓은 것
+│     ├── IsolationForest_0.pkl: 모드 0에서의 IsolationForest 모델
+│     ├── IsolationForest_2.pkl: 모드 2에서의 IsolationForest 모델
+│     ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
+│     └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델
+├── preprocessed data
+│          ├── scaler_0.pkl : 모드 0에서의 MinMaxScaler 모델
+│          ├── scaler_2.pkl : 모드 2에서의 MinMaxScaler 모델
+│          ├── test_feature_0.csv  : MFCC 진행 후 165개의 Feature로 추출한 test 데이터               
+│          ├── test_feature_2.csv  : 
+│          ├── train_feature_0.csv : 
+│          └── train_feature_2.csv :     
 ├── 연습
 ├── 최종
 │     ├── 최종본.ipynb
