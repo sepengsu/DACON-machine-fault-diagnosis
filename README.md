@@ -24,11 +24,14 @@ ${PROJECT}
 │        ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
 │        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델             
 ├── 연습
-└── 최종
+├── 최종
+└── Final_Dacon.ipynb
 ```
 
 ## 1. 데이터 전처리 설명
+### 1-1. 데이터 특성
 ```
+데이터는 음성데이터로 MFCC로 분석하는 것이 용이하다. MFCC(1)는 
 ```
 
 ## 2. 모델 설명
@@ -63,4 +66,7 @@ Local Outlier Factor(LOF)
 
 
 ### 6. 참고문헌
+```
+(1): https://brightwon.tistory.com/11
 https://eatchu.tistory.com/entry/%EC%9D%B4%EC%83%81%EC%B9%98%ED%83%90%EC%A7%80-%EA%B8%B0%EB%B0%98%EC%9D%98-Local-Outlier-FactorLOF-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0
+```
