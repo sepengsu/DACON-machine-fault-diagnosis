@@ -5,26 +5,28 @@
 
 참가자: 서재원
 
-## 1. 데이터 구조 및 파일 위치
+## 0. 데이터, 모델 구조 및 파일 위치
 ```
 ${PROJECT}
-├── weight/
+├── data: 대회에서 제공해준 기본 데이터 
+│      ├── sample_submission.csv
+│      ├── test.csv
+│      └── train.csv
 ├── model
 │        ├── Auto
-│        │     └── model_0_1~5.h5 : 모드 0에서의 k-fold autoencoder
-│        │     └──model_2_1~5.h5 : 모드 2에서의 k-fold autoencoder
-          
-├── results/         
-├── data
-│       ├── 00_source/
-│       │          └── train.csv
-│       │          └── test.csv
-│       ├── 01_split/
-│       └── sample_submission.csv
-├── README.hwp
-├── train.ipynb
-├── predict.ipynb
-└── preprocess.ipynb
+│        │     ├── model_0_1~5.h5 : 모드 0에서의 k-fold autoencoder
+│        │     ├── model_2_1~5.h5 : 모드 2에서의 k-fold autoencoder
+│        │     └── threshold.csv  : 각 모델별의 thresold를 저장해놓은 것
+│        ├── IsolationForest_0.pkl: 모드 0에서의 IsolationForest 모델
+│        ├── IsolationForest_2.pkl: 모드 2에서의 IsolationForest 모델
+│        ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
+│        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델             
+├── 연습
+└── 최종
+```
+
+## 1. 데이터 전처리 설명
+```
 ```
 
 ## 2. 모델 설명
