@@ -14,7 +14,7 @@ ${PROJECT}
 │     ├── sample_submission.csv -> 삭제 완료
 │     ├── test.csv -> 삭제 완료
 │     └── train.csv -> 삭제 완료
-├── Feature:
+├── Feature
 │     ├── test.csv  : test의 모든 음원들을 165개의 Feature로 추출한 데이터 -> 삭제 완료
 │     └── train.csv : train의 모든 음원들을 165개의 Feature로 추출한 데이터 -> 삭제 완료
 ├── model
