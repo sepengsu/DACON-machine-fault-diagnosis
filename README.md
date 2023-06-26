@@ -29,10 +29,10 @@ ${PROJECT}
 ├── preprocessed data
 │          ├── scaler_0.pkl : 모드 0에서의 MinMaxScaler 모델
 │          ├── scaler_2.pkl : 모드 2에서의 MinMaxScaler 모델
-│          ├── test_feature_0.csv  : 음파의 165개의 Feature로 추출한 test 데이터               
-│          ├── test_feature_2.csv  : 
-│          ├── train_feature_0.csv : 
-│          └── train_feature_2.csv :     
+│          ├── test_feature_0.csv  : test파일에서 전처리 한 후 모드0인 데이터만 모은 것                
+│          ├── test_feature_2.csv  : test파일에서 전처리 한 후 모드2인 데이터만 모은 것
+│          ├── train_feature_0.csv : train파일에서 전처리 한 후 모드0인 데이터만 모은 것
+│          └── train_feature_2.csv : train파일에서 전처리 한 후 모드2인 데이터만 모은 것    
 ├── 연습
 ├── 최종
 │     ├── 최종본.ipynb
@@ -41,11 +41,10 @@ ${PROJECT}
 ```
 
 ## 1. 데이터 전처리 설명
-### 1-1. 데이터 특성
+### 1-1. 데이터 특징 추출
 ```
-데이터는 음성데이터로 MFCC로 분석하는 것이 용이하다. MFCC(1)는 
+MFCC vs 통계적 feature 추출
 ```
-
 ## 2. 모델 설명
 
 ### 2-1. Isolation Forest
