@@ -25,6 +25,8 @@ ${PROJECT}
 │        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델             
 ├── 연습
 ├── 최종
+│     ├── 최종본.ipynb
+│     └── 최종본-LOF.ipynb 
 └── Final_Dacon.ipynb
 ```
 
