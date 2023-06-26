@@ -11,9 +11,9 @@
 ```
 ${PROJECT}
 ├── data: 대회에서 제공해준 기본 데이터 
-│      ├── sample_submission.csv
-│      ├── test.csv
-│      └── train.csv
+│      ├── sample_submission.csv -> 삭제 완료
+│      ├── test.csv -> 삭제 완료
+│      └── train.csv -> 삭제 완료
 ├── model
 │        ├── Auto
 │        │     ├── model_0_1~5.h5 : 모드 0에서의 k-fold autoencoder
@@ -22,7 +22,9 @@ ${PROJECT}
 │        ├── IsolationForest_0.pkl: 모드 0에서의 IsolationForest 모델
 │        ├── IsolationForest_2.pkl: 모드 2에서의 IsolationForest 모델
 │        ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
-│        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델             
+│        └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델
+├── 
+             
 ├── 연습
 ├── 최종
 │     ├── 최종본.ipynb
