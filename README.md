@@ -39,7 +39,13 @@ ${PROJECT}
 ## 1. 데이터 전처리 설명
 ### 1-1. 데이터 특징 추출
 ```
-MFCC vs 통계적 feature 추출
+1. MFCC vs 통계적 feature 추출
+MFCC로 2D Feature map으로 추출할 수도, 이를 평균으로 하여 feature vector로 할 수도 있다.
+하지만 MFCC로 하기에는 어려움이 많고 통계적 Feature 추출이 그래픞 파악하기 더 유용하다고 판단함 
+```
+```
+2. 통계적 Feature 추출
+
 ```
 ## 2. 모델 설명
 
