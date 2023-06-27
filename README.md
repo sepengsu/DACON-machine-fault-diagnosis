@@ -51,8 +51,13 @@ MAx,Min,Mean,Rms,Std,Median,Mode, Q1,Q3,Iqr은 전통적인 통계치이다.
 Skew는 왜도(skewness)로 데이터의 비대칭성을 나타내는 지표이다.
 kurt는 첨도(kurtosis)로 데이터가 뾰족한 정도를 나타내는 지표이다. 
 CF는 파고율(crest factor)로 솟아로은 모양의 요소가 있는 정도를 나타내는 지표이다.
-
-
+IF는 Impulse factor이다.
+SF는 shape factor이다.
+```
+```
+3. Time Domain과 Freqency Domain
+Time Domain은 시간에 따른 음파 그래프를 분석한다는 것이다.
+Freqency Domain은 음파 그래프를 10 level의 wave transform을 한 후 각각 분석한다.
 ```
 ## 2. 모델 설명
 
@@ -71,6 +76,17 @@ CF는 파고율(crest factor)로 솟아로은 모양의 요소가 있는 정도�
 2006년 이후 널리 사용한 기법으로, 먼저 데이터셋이 인코더와 디코더를 거치면서 변하는 정도로 이상치를 탐지하는 일고리즘이다.
 인코더에 데이터를 넣으면 디코더에 output이 나오는데 이 둘을 비교하여 다른 정도가 threshold보다 크면 이상치로 탐지한다.
 ```
+
+
+
+### 3. 결과
+순위로 다음과 같이 나왔다.
+![image](https://github.com/sepengsu/DACON-machine-fault-diagnosis/assets/111292354/e592f9f3-ebfa-426b-8ee8-c42c6f9e3c8e)
+
+### 4. 문제점 
+1. 데이터셋 불균형이 아닌 고장 데이터의 부재로 인한 데이터 분석의 어려움
+2. 데이터셋에 대한 지식 부족
+### 5. 참고문헌
 * 참고 *
 ```
 Local Outlier Factor(LOF)
@@ -79,18 +95,6 @@ Local Outlier Factor(LOF)
 즉, 이웃 그룹의 밀도를 고려하여 객체의 이상치를 판별한다.
 이 데이터에서는 모든 데이터가 정상데이터이므로 하기에는 너무 부적절하다고 판단하였다.  
 ```
-
-
-### 3. 결과
-순위로 다음과 같이 나왔다.
-![image](https://github.com/sepengsu/DACON-machine-fault-diagnosis/assets/111292354/e592f9f3-ebfa-426b-8ee8-c42c6f9e3c8e)
-
-### 4. 문제점 
-
-
-### 5. 개선사항
-1. 
-### 6. 참고문헌
 ```
 (1): https://brightwon.tistory.com/11
 (3): https://leedakyeong.tistory.com/entry/Anomaly-Detection-by-Auto-Encoder
