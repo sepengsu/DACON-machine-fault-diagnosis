@@ -77,7 +77,8 @@ Local Outlier Factor(LOF)
 
 ### 3. 결과
 순위로 다음과 같이 나왔다.
-![image](https://github.com/sepengsu/DACON-machine-fault-diagnosis/assets/111292354/efe5ed8e-90ed-4ec9-9b95-6099a456cf3f)
+![image](https://github.com/sepengsu/DACON-machine-fault-diagnosis/assets/111292354/e592f9f3-ebfa-426b-8ee8-c42c6f9e3c8e)
+
 ### 4. 문제점 
 
 
