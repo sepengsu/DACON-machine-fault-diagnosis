@@ -44,7 +44,8 @@ MFCC로 2D Feature map으로 추출할 수도, 이를 평균으로 하여 featur
 하지만 MFCC로 하기에는 어려움이 많고 통계적 Feature 추출이 그래픞 파악하기 더 유용하다고 판단함 
 ```
 ```
-2. 통계적 Feature 추출
+2. 통계적 Feature
+15개의 통계적 Feature를 사용하였다.
 
 ```
 ## 2. 모델 설명
@@ -75,7 +76,8 @@ Local Outlier Factor(LOF)
 
 
 ### 3. 결과
-
+순위로 다음과 같이 나왔다.
+![image](https://github.com/sepengsu/DACON-machine-fault-diagnosis/assets/111292354/efe5ed8e-90ed-4ec9-9b95-6099a456cf3f)
 ### 4. 문제점 
 
 
