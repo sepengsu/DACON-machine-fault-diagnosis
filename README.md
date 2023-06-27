@@ -27,8 +27,12 @@ ${PROJECT}
 │     ├── OneClassSVM_0.pkl    : 모드 0에서의 OneClassSVM 모델
 │     └── OneClassSVM_2.pkl    : 모드 2에서의 OneClassSVM 모델
 ├── preprocessed data
-│          ├── scaler_0.pkl : 모드 0에서의 MinMaxScaler 모델
-│          ├── scaler일
+│          ├── scaler_0.pkl : 모드 0에서의 MinMaxScaler
+│          ├── scaler_2.pkl : 모드 2에서의 MinMaxScaler
+│          ├── test_feature_0.csv  : pre-processing을 한 후의 test_feature중 모드0
+│          ├── test_feature_2.csv  : pre-processing을 한 후의 test_feature중 모드2
+│          ├── train_feature_0.csv : pre-processing을 한 후의 train_feature중 모드0
+│          └── train_feature_2.csv : pre-processing을 한 후의 train_feature중 모드2
 └── Final_Dacon.ipynb
 ```
 
