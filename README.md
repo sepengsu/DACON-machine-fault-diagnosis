@@ -46,6 +46,12 @@ MFCC로 2D Feature map으로 추출할 수도, 이를 평균으로 하여 featur
 ```
 2. 통계적 Feature
 15개의 통계적 Feature를 사용하였다.
+Max,Min,Mean,Rms,Std,Skew,Kurt,CF,IF,SF,Median,Mode,Q1,Q3,Iqr이다.
+MAx,Min,Mean,Rms,Std,Median,Mode, Q1,Q3,Iqr은 전통적인 통계치이다.
+Skew는 왜도(skewness)로 데이터의 비대칭성을 나타내는 지표이다.
+kurt는 첨도(kurtosis)로 데이터가 뾰족한 정도를 나타내는 지표이다. 
+CF는 파고율(crest factor)로 솟아로은 모양의 요소가 있는 정도를 나타내는 지표이다.
+
 
 ```
 ## 2. 모델 설명
